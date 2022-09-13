@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/rapric2115/rating-component.github.io)
-- Live Site URL: [Add live site URL here](https://rapric2115.github.io/rating-component.github.io/)
+- Solution URL: [solution URL here](https://github.com/rapric2115/rating-component.github.io)
+- Live Site URL: [Live site URL here](https://rapric2115.github.io/rating-component.github.io/)
 
 ## My process
 
