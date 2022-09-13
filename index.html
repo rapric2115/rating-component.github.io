@@ -18,7 +18,7 @@
 <body>
 
   <main role="main">
-    <div class="rating-card col-flex" id="ratings">
+    <section class="rating-card col-flex" id="ratings">
       <!-- Rating state start -->
       <figure class="icon-star">
         <img src="./images/icon-star.svg" alt="Star Icon" />
@@ -26,7 +26,8 @@
       <h1>How did we do?</h1>
     
       <p>Please let us know how we did with your support request. All feedback is appreciated 
-        to help us improve our offering!</p>
+        to help us improve our offering!
+      </p>
     
         <ul id="listRating">
           <li id="one" value ="1">1</li>
@@ -34,18 +35,15 @@
           <li id="three" value="3">3</li>
           <li id="four" value="4">4</li>
           <li id="five" value="5">5</li>
-        </ul>
-    
+        </ul>    
     
       <button id="btn">Submit</button>
     
       <!-- Rating state end -->
-    </div>
-    <div class="rating-card d-none col-flex center" id="thanks">
-      <!-- Thank you state start -->
-     
-        <img src="./images/illustration-thank-you.svg" alt="Thank you illustration" class="thank-image"/>
-      
+      </section>
+    <section class="rating-card d-none col-flex center" id="thanks">
+      <!-- Thank you state start -->     
+      <img src="./images/illustration-thank-you.svg" alt="Thank you illustration" class="thank-image"/>      
     
       <p class="thank-rate">You selected <span id="ratingValue"></span> out of 5</p>
     
@@ -53,9 +51,10 @@
     
       <p>
         We appreciate you taking the time to give a rating. If you ever need more support, 
-      don’t hesitate to get in touch!</p>    
+      don’t hesitate to get in touch!
+      </p>    
       <!-- Thank you state end -->
-    </div>
+    </section>
 
   </main>
 
@@ -63,7 +62,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Raphael Richardson</a>.
+    Coded by <a href="https://raphaelrichardsonb.web.app">Raphael Richardson</a>.
   </div>
   <script src="./rating.js"></script>
 </body>
