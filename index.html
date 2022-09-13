@@ -18,7 +18,7 @@
 <body>
 
   <main role="main">
-    <div class="rating-card col-flex">
+    <div class="rating-card col-flex" id="ratings">
       <!-- Rating state start -->
       <figure class="icon-star">
         <img src="./images/icon-star.svg" alt="Star Icon" />
@@ -28,26 +28,26 @@
       <p>Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!</p>
     
-        <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
+        <ul id="listRating">
+          <li id="one" value ="1">1</li>
+          <li id="two" value="2">2</li>
+          <li id="three" value="3">3</li>
+          <li id="four" value="4">4</li>
+          <li id="five" value="5">5</li>
         </ul>
     
     
-      <button>Submit</button>
+      <button id="btn">Submit</button>
     
       <!-- Rating state end -->
     </div>
-    <div class="rating-card d-none col-flex center">
+    <div class="rating-card d-none col-flex center" id="thanks">
       <!-- Thank you state start -->
      
         <img src="./images/illustration-thank-you.svg" alt="Thank you illustration" class="thank-image"/>
       
     
-      <p class="thank-rate">You selected <!-- Add rating here--> out of 5</p>
+      <p class="thank-rate">You selected <span id="ratingValue"></span> out of 5</p>
     
       <h2>Thank you!</h2>
     
@@ -65,5 +65,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Raphael Richardson</a>.
   </div>
+  <script src="./rating.js"></script>
 </body>
 </html>
