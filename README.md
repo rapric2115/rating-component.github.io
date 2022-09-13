@@ -28,7 +28,6 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
 ![](./images/interactive-rating-component-desktop.PNG)
 ![](./images/Interactive-rating-component-mobile.PNG)
 
@@ -36,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/rapric2115/rating-component.github.io)
-- Live Site URL: [Live site URL here](https://rapric2115.github.io/rating-component.github.io/)
+- Solution URL: [solution here](https://github.com/rapric2115/rating-component.github.io)
+- Live Site URL: [Live site here](https://rapric2115.github.io/rating-component.github.io/)
 
 ## My process
 
