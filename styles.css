@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color:  hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.rating-card {
+    max-width: 20rem;
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.rating-card p {
+    margin-top: -0.5rem;
+    line-height: 1.5rem;
+    color: hsl(217, 12%, 63%);
+}
+
+figure {
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 22%);
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: -0.3rem;
+    padding: .5rem;
+}
+
+figure img {
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    display: inline-flex;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+}
+
+ul li {
+    background-color: hsl(216, 12%, 22%);
+    width: 3.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+    color: hsl(217, 12%, 63%);
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.thank-rate {
+    background-color: hsl(216, 12%, 22%);
+    text-align: center;
+    color: hsl(25, 97%, 53%) !important;
+    width: 60%;
+    padding: 5px;
+    border-radius: 20px;
+    margin-top: 2rem !important;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
+
+.thank-image {
+    width: 9rem;
+}
+
+button {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1em;
+    padding: 1rem;
+    border-radius: 40px;
+    text-transform: uppercase;
+    border-width: 0;
+}
+
+.d-none {
+    display: none;
+}
